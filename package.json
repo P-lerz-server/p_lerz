@@ -44,5 +44,8 @@
     "preferGlobal": false,
     "config": {
         "port": "52882"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
     }
 }
