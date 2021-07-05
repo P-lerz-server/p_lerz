@@ -1,0 +1,48 @@
+{
+    "name": "p_lerz",
+    "version": "0.1.0",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/P-lerz-server/p_lerz.git"
+    },
+    "contributors": [
+        {
+            "name": "Abiria",
+            "email": "abiria.dev@gmail.com",
+            "url": "https://github.com/abiriadev"
+        }
+    ],
+    "license": "MIT",
+    "private": true,
+    "description": "the site about the p_lerz minecraft server",
+    "bugs": {
+        "url": "https://github.com/P-lerz-server/p_lerz/issues",
+        "email": "abiria.dev@gmail.com"
+    },
+    "homepage": "https://github.com/P-lerz-server/p_lerz#readme",
+    "scripts": {
+        "format": "prettier . -w",
+        "test": "jest"
+    },
+    "keywords": [
+        "minecraft",
+        "server",
+        "survival map"
+    ],
+    "engines": {
+        "node": ">=12.0.0 <=16.0.0"
+    },
+    "os": [
+        "linux",
+        "!win32"
+    ],
+    "cpu": [
+        "x64",
+        "ia32"
+    ],
+    "preferGlobal": false,
+    "config": {
+        "port": "52882"
+    }
+}
