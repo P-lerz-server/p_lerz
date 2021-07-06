@@ -1,0 +1,35 @@
+@import './scaffolding.scss';
+@import './utils.scss';
+@import './global-vars.scss';
+
+.wrap {
+    display: grid;
+
+    grid-template-columns: 2fr 5fr;
+
+    width: 100%;
+    height: 100%;
+
+    color: $primary-color;
+
+    // @include bo();
+
+    main {
+        background-color: aliceblue;
+
+        @include center();
+    }
+
+    aside.sidebar {
+        display: grid;
+
+        grid-template-rows: 2fr 8fr;
+
+        .banner {
+            background-color: $primary-color;
+
+            @include center;
+            color: white;
+        }
+    }
+}

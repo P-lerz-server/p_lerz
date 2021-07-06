@@ -1,0 +1,5 @@
+@mixin bo($color: red, $width: 2px, $style: solid) {
+    border-color: $color;
+    border-width: $width;
+    border-style: $style;
+}
