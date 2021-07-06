@@ -23,7 +23,12 @@
     "homepage": "https://github.com/P-lerz-server/p_lerz#readme",
     "scripts": {
         "format": "prettier . -w",
-        "test": "jest"
+        "test": "jest",
+        "sass": "sass src/sass:src/public/style",
+        "sass:dev": "sass src/sass:src/public/style --no-source-map",
+        "sass:watch": "sass -w src/sass:src/public/style",
+        "sass:watch:dev": "sass -w src/sass:src/public/style --no-source-map",
+        "clean": "rm src/public/style/*"
     },
     "keywords": [
         "minecraft",
