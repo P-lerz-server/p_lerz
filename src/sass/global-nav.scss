@@ -1,0 +1,39 @@
+@import './utils.scss';
+
+$dad: #dadce0;
+
+.global-header {
+    @include center;
+
+    .global-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 7fr;
+
+        background-color: #eee;
+
+        border-bottom: 1px solid $dad;
+
+        // grid
+
+        h2.title {
+            @include center;
+        }
+
+        // justify-content: space-between;
+
+        ul.global-nav-list {
+            // margin-left: auto;
+
+            display: flex;
+
+            flex-direction: row;
+
+            li {
+                background-color: aquamarine;
+
+                margin: 3%;
+            }
+        }
+    }
+}
